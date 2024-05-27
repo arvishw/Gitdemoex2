@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="TestNGDEMO">
+  <classes>
+  <class name="Test.testngdemoprc">
+  
+  <methods>
+  <include name="day3"/>
+  </methods>
+  </class>
+  
+  
+    <class name="Test.testngdemoprc1"/>
+    <class name="Test.testngdemoprc3"/>
+  
+  </classes>
+  
+  </test> 
+  
+  <test name="carloan">
+  <classes>
+  <class name="Test.testngdemoprc2">
+  <methods>
+  <exclude name="app.*"/>
+  </methods>
+  </class>
+  </classes>
+  
+  </test>
+</suite> 
